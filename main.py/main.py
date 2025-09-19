@@ -1,3 +1,5 @@
 print("Welcome to the food-ordering chatbot!")
 name = input("what is your name?")
-age = input("Hello" + name + "! How old are you?")
+age = input(f"Hi {name}! How old are you?")
+print(name, ", check out our menu! \n 1. Placeholder#1 \n 2. Placeholder#2 \n 3. Placeholder#3 \n 4. Placeholder#4 \n 5. Exit")
+menu_input = input("How can I help you today? Select an option by entering the corresponding number on the menu:")
